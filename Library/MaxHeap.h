@@ -1,5 +1,5 @@
 //
-//  Library.h
+//  MaxHeap.h
 //  Library
 //
 //  Created by Marco Velluto on 20/05/14.
@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Library : NSObject
-- (void)sort;
+@interface MaxHeap : NSObject
 
 @end

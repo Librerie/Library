@@ -12,10 +12,21 @@
 		1847986F192BE38D0034DC1B /* Library.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847986E192BE38D0034DC1B /* Library.m */; };
 		18479876192BE38D0034DC1B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18479875192BE38D0034DC1B /* XCTest.framework */; };
 		18479877192BE38D0034DC1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18479867192BE38D0034DC1B /* Foundation.framework */; };
-		18479879192BE38D0034DC1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18479878192BE38D0034DC1B /* UIKit.framework */; };
+		18479879192BE38D0034DC1B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18479878192BE38D0034DC1B /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		1847987C192BE38D0034DC1B /* libLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18479864192BE38D0034DC1B /* libLibrary.a */; };
 		18479882192BE38D0034DC1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18479880192BE38D0034DC1B /* InfoPlist.strings */; };
 		18479884192BE38D0034DC1B /* LibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18479883192BE38D0034DC1B /* LibraryTests.m */; };
+		1847988F192BE3BB0034DC1B /* CustomDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847988E192BE3BB0034DC1B /* CustomDate.m */; };
+		18479898192BE5A60034DC1B /* EmptyHeapException.m in Sources */ = {isa = PBXBuildFile; fileRef = 18479897192BE5A60034DC1B /* EmptyHeapException.m */; };
+		1847989A192BE5D70034DC1B /* TestCustomDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18479899192BE5D70034DC1B /* TestCustomDate.m */; };
+		1847989D192BE7480034DC1B /* MaxHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847989C192BE7480034DC1B /* MaxHeap.m */; };
+		184798A1192BF7750034DC1B /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 184798A0192BF7750034DC1B /* BubbleSort.m */; };
+		184DE600192F9FF5002BA2A8 /* TestSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DE5FF192F9FF5002BA2A8 /* TestSort.m */; };
+		184DE606192FADCB002BA2A8 /* TestNSMutableArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DE605192FADCB002BA2A8 /* TestNSMutableArray+Shuffling.m */; };
+		184DE609192FB19A002BA2A8 /* NSMutableArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DE608192FB19A002BA2A8 /* NSMutableArray+Shuffling.m */; };
+		1854E07F1933A127008710B9 /* NSArray+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1854E07E1933A127008710B9 /* NSArray+Utility.m */; };
+		1854E0841933A37E008710B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1854E0831933A37E008710B9 /* UIKit.framework */; };
+		1854E0851933A3DA008710B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1854E0831933A37E008710B9 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,22 @@
 		1847987F192BE38D0034DC1B /* LibraryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LibraryTests-Info.plist"; sourceTree = "<group>"; };
 		18479881192BE38D0034DC1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18479883192BE38D0034DC1B /* LibraryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibraryTests.m; sourceTree = "<group>"; };
+		1847988D192BE3BB0034DC1B /* CustomDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDate.h; sourceTree = "<group>"; };
+		1847988E192BE3BB0034DC1B /* CustomDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomDate.m; sourceTree = "<group>"; };
+		18479896192BE5A60034DC1B /* EmptyHeapException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyHeapException.h; sourceTree = "<group>"; };
+		18479897192BE5A60034DC1B /* EmptyHeapException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyHeapException.m; sourceTree = "<group>"; };
+		18479899192BE5D70034DC1B /* TestCustomDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCustomDate.m; sourceTree = "<group>"; };
+		1847989B192BE7480034DC1B /* MaxHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaxHeap.h; sourceTree = "<group>"; };
+		1847989C192BE7480034DC1B /* MaxHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxHeap.m; sourceTree = "<group>"; };
+		1847989F192BF7750034DC1B /* BubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
+		184798A0192BF7750034DC1B /* BubbleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleSort.m; sourceTree = "<group>"; };
+		184DE5FF192F9FF5002BA2A8 /* TestSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSort.m; sourceTree = "<group>"; };
+		184DE605192FADCB002BA2A8 /* TestNSMutableArray+Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TestNSMutableArray+Shuffling.m"; sourceTree = "<group>"; };
+		184DE607192FB19A002BA2A8 /* NSMutableArray+Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffling.h"; sourceTree = "<group>"; };
+		184DE608192FB19A002BA2A8 /* NSMutableArray+Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffling.m"; sourceTree = "<group>"; };
+		1854E07D1933A127008710B9 /* NSArray+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Utility.h"; sourceTree = "<group>"; };
+		1854E07E1933A127008710B9 /* NSArray+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Utility.m"; sourceTree = "<group>"; };
+		1854E0831933A37E008710B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1854E0841933A37E008710B9 /* UIKit.framework in Frameworks */,
 				18479868192BE38D0034DC1B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1854E0851933A3DA008710B9 /* UIKit.framework in Frameworks */,
 				18479876192BE38D0034DC1B /* XCTest.framework in Frameworks */,
 				18479879192BE38D0034DC1B /* UIKit.framework in Frameworks */,
 				18479877192BE38D0034DC1B /* Foundation.framework in Frameworks */,
@@ -100,6 +129,7 @@
 		18479866192BE38D0034DC1B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1854E0831933A37E008710B9 /* UIKit.framework */,
 				18479867192BE38D0034DC1B /* Foundation.framework */,
 				18479875192BE38D0034DC1B /* XCTest.framework */,
 				18479878192BE38D0034DC1B /* UIKit.framework */,
@@ -110,8 +140,12 @@
 		18479869192BE38D0034DC1B /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				184DE601192FA0D6002BA2A8 /* Array */,
+				1847989E192BF7640034DC1B /* Sort */,
 				1847986C192BE38D0034DC1B /* Library.h */,
 				1847986E192BE38D0034DC1B /* Library.m */,
+				18479895192BE5670034DC1B /* DataStructure */,
+				18479894192BE49A0034DC1B /* Date */,
 				1847986A192BE38D0034DC1B /* Supporting Files */,
 			);
 			path = Library;
@@ -128,7 +162,10 @@
 		1847987D192BE38D0034DC1B /* LibraryTests */ = {
 			isa = PBXGroup;
 			children = (
+				18479899192BE5D70034DC1B /* TestCustomDate.m */,
 				18479883192BE38D0034DC1B /* LibraryTests.m */,
+				184DE5FF192F9FF5002BA2A8 /* TestSort.m */,
+				184DE605192FADCB002BA2A8 /* TestNSMutableArray+Shuffling.m */,
 				1847987E192BE38D0034DC1B /* Supporting Files */,
 			);
 			path = LibraryTests;
@@ -141,6 +178,46 @@
 				18479880192BE38D0034DC1B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18479894192BE49A0034DC1B /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				1847988D192BE3BB0034DC1B /* CustomDate.h */,
+				1847988E192BE3BB0034DC1B /* CustomDate.m */,
+			);
+			name = Date;
+			sourceTree = "<group>";
+		};
+		18479895192BE5670034DC1B /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				18479896192BE5A60034DC1B /* EmptyHeapException.h */,
+				18479897192BE5A60034DC1B /* EmptyHeapException.m */,
+				1847989B192BE7480034DC1B /* MaxHeap.h */,
+				1847989C192BE7480034DC1B /* MaxHeap.m */,
+			);
+			name = DataStructure;
+			sourceTree = "<group>";
+		};
+		1847989E192BF7640034DC1B /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				1847989F192BF7750034DC1B /* BubbleSort.h */,
+				184798A0192BF7750034DC1B /* BubbleSort.m */,
+			);
+			name = Sort;
+			sourceTree = "<group>";
+		};
+		184DE601192FA0D6002BA2A8 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				184DE607192FB19A002BA2A8 /* NSMutableArray+Shuffling.h */,
+				184DE608192FB19A002BA2A8 /* NSMutableArray+Shuffling.m */,
+				1854E07D1933A127008710B9 /* NSArray+Utility.h */,
+				1854E07E1933A127008710B9 /* NSArray+Utility.m */,
+			);
+			name = Array;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +301,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184DE609192FB19A002BA2A8 /* NSMutableArray+Shuffling.m in Sources */,
+				1847989D192BE7480034DC1B /* MaxHeap.m in Sources */,
+				184798A1192BF7750034DC1B /* BubbleSort.m in Sources */,
+				1847988F192BE3BB0034DC1B /* CustomDate.m in Sources */,
+				1854E07F1933A127008710B9 /* NSArray+Utility.m in Sources */,
+				18479898192BE5A60034DC1B /* EmptyHeapException.m in Sources */,
 				1847986F192BE38D0034DC1B /* Library.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +315,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184DE606192FADCB002BA2A8 /* TestNSMutableArray+Shuffling.m in Sources */,
+				184DE600192F9FF5002BA2A8 /* TestSort.m in Sources */,
+				1847989A192BE5D70034DC1B /* TestCustomDate.m in Sources */,
 				18479884192BE38D0034DC1B /* LibraryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +491,7 @@
 				18479889192BE38D0034DC1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1847988A192BE38D0034DC1B /* Build configuration list for PBXNativeTarget "LibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +500,7 @@
 				1847988C192BE38D0034DC1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
